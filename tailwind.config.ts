@@ -47,6 +47,25 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          foreground: "hsl(var(--warning-foreground))",
+        },
+        eco: {
+          DEFAULT: "hsl(var(--eco-green))",
+          light: "hsl(var(--eco-green-light))",
+        },
+        earth: {
+          DEFAULT: "hsl(var(--earth-brown))",
+          cream: "hsl(var(--earth-cream))",
+        },
+        nature: {
+          blue: "hsl(var(--nature-blue))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +76,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-eco": "var(--gradient-eco)",
+        "gradient-earth": "var(--gradient-earth)",
+        "gradient-hero": "var(--gradient-hero)",
+      },
+      boxShadow: {
+        "eco": "var(--shadow-eco)",
+        "soft": "var(--shadow-soft)",
+      },
+      transitionTimingFunction: {
+        "smooth": "var(--transition-smooth)",
       },
       borderRadius: {
         lg: "var(--radius)",
